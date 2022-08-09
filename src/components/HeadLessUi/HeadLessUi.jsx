@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ChevronDownSvg from './ChevronDownSvg';
+import ChevronUpSvg from './ChevronUpSvg';
 
 const HeadLessUi = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const HeadLessUi = () => {
         className=" px-4 py-2 z-10 relative bg-blue-500 text-white rounded-lg flex justify-center items-center focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-white"
       >
         <span>show more</span>
-        <ChevronDownSvg />
+        {isOpen ? <ChevronUpSvg /> : <ChevronDownSvg />}
       </button>
       <div
         className={`inset-0  bg-gray-400  ${isOpen ? 'fixed' : 'hidden'}`}
