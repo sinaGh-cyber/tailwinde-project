@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{jsx,js}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['vazir'],
+      },
       keyframes: {
         hiddenToVisible: {
           '0%': { opacity: '0' },
