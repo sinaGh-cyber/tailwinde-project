@@ -4,7 +4,7 @@ import SearchSvg from './SearchSvg';
 const AppBar = ({ category }) => {
   return (
     <div className="flex justify-between items-center mt-10 mb-6 ">
-      <div className="bg-white p-2 rounded flex items-center justify-center shadow-md ml-6 ">
+      <div className="bg-white cursor-pointer p-2 rounded flex items-center justify-center shadow-md ml-6 ">
         <SearchSvg />
       </div>
       <div className="">
