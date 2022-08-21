@@ -3,11 +3,13 @@ module.exports = {
   content: ['./src/**/*.{jsx,js}'],
   theme: {
     screens: {
-      xsm: '430px',
+      xxsm: '430px',
+      xsm: '619px',
       sm: '640px',
       md: '851px',
-      lg: '1124px',
-      xl: '1280px',
+      xmd: '950px',
+      lg: '1150px',
+      xl: '1380px',
       '2xl': '1536px',
     },
     extend: {
