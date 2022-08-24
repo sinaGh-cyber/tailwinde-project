@@ -38,7 +38,9 @@ const Product = ({ name, price, colors, isLastOne, image, brand }) => {
       </div>
 
       <hr />
-      <button className='text-base text-orange-400 font-bold text-center py-2 cursor-pointer md:text-lg' >مشاهده و سفارش</button>
+      <button className="text-base text-orange-400 font-bold text-center py-2 cursor-pointer md:text-lg">
+        مشاهده و سفارش
+      </button>
     </li>
   );
 };
