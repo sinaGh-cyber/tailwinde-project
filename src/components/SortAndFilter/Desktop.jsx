@@ -20,7 +20,7 @@ const Desktop = ({ onClick, activeTab }) => {
         onClick={onClick}
         className={`${
           activeTab === MOST_Favorite && activeClassName
-        } ${hoverClassName} p-4 relative `}
+        } ${hoverClassName} p-4 relative rounded-md `}
         name={MOST_Favorite}
       >
         محبوب ترین
@@ -32,7 +32,7 @@ const Desktop = ({ onClick, activeTab }) => {
         onClick={onClick}
         className={`${
           activeTab === HOT_SAILING && activeClassName
-        }  ${hoverClassName} p-4 relative`}
+        }  ${hoverClassName} p-4 relative rounded-md`}
         name={HOT_SAILING}
       >
         پرفروش ترین
@@ -44,7 +44,7 @@ const Desktop = ({ onClick, activeTab }) => {
         onClick={onClick}
         className={`${
           activeTab === MOST_EXPENSIVE && activeClassName
-        } ${hoverClassName} p-4 relative `}
+        } ${hoverClassName} p-4 relative rounded-md`}
         name={MOST_EXPENSIVE}
       >
         گران ترین
@@ -55,7 +55,7 @@ const Desktop = ({ onClick, activeTab }) => {
       <button
         className={`${
           activeTab === CHEAPEST && activeClassName
-        } ${hoverClassName} p-4  relative`}
+        } ${hoverClassName} p-4  relative rounded-md`}
         onClick={onClick}
         name={CHEAPEST}
       >
