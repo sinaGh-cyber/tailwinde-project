@@ -9,7 +9,7 @@ const ProductsLayout = () => {
       <div className=" col-span-full  md:col-span-8 lg:col-span-9 md:px-4">
         <SortAndFilter />
       </div>
-      <div className=" hidden md:block col-span-4 lg:col-span-3 row-span-2 bg-slate-50">
+      <div className=" hidden md:block col-span-4 lg:col-span-3 row-span-2 ">
         <SideBar />
       </div>{' '}
       <div className=" col-span-full md:col-span-8 lg:col-span-9">
