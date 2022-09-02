@@ -6,7 +6,7 @@ const DisClosure = ({ Icon, data, title }) => {
   const [isExpended, setIsExpended] = useState(false);
 
   return (
-    <div className="mb-11">
+    <div className="mb-5">
       <div
         onClick={() => {
           setIsExpended((prev) => !prev);
@@ -18,7 +18,7 @@ const DisClosure = ({ Icon, data, title }) => {
         {Icon}
       </div>
       <div
-        className={` flex flex-col gap-y-7  ${isExpended ? 'block' : 'hidden'}`}
+        className={` flex flex-col gap-y-2  ${isExpended ? 'block' : 'hidden'}`}
       >
         {' '}
         {data.map(({ name, label }) => {
