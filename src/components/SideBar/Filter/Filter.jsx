@@ -11,7 +11,7 @@ import { priceData } from './priceData';
 const Filter = () => {
   return (
     <div className="text-right ">
-        <div className='font-bold text-xl text-orange-400 mb-9' >فیلتر</div>
+        <div className='font-bold text-xl text-orange-400 mb-6' >فیلتر</div>
         <DisClosure Icon={<BrandSvg/>} data={brandsData} title='برند'/>
         <DisClosure Icon={<ColorSwitchSvg/>} data={colorData} title='رنگ' />
         <DisClosure Icon={<PriceSvg/>} data={priceData} title='قیمت' />
